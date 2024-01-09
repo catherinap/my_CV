@@ -448,4 +448,8 @@ sup {
     .work-company h4 {
         margin-bottom: 5px;
     }
+
+    .my-projects-list li>span {
+        display: none;
+    }
 }
