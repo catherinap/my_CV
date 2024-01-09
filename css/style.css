@@ -316,6 +316,18 @@ sup {
     text-align: left;
 }
 
+/* Laptop screens */
+@media screen and (max-width: 1024px) {
+    body {
+        padding: 20px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+}
+
+
 /* Tablet screens */
 @media screen and (max-width: 900px) {
 
