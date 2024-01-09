@@ -319,8 +319,13 @@ sup {
 /* Tablet screens */
 @media screen and (max-width: 900px) {
 
+    body {
+        padding: 20px;
+    }
+
     .wrapper {
         flex-direction: column-reverse;
+        width: 100%;
     }
 
     .main-content {
@@ -329,7 +334,14 @@ sup {
 
     .sidebar {
         display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
+        padding: 0;
+    }
+
+    .sidebar-content {
+        padding: 20px;
     }
 
     .sidebar img {
@@ -371,6 +383,7 @@ sup {
         display: flex;
         width: 100%;
         flex-direction: column;
+        align-items: start;
         padding-bottom: 0;
         padding-top: 0;
     }
