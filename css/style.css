@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: #adadad;
     padding: 40px 40px 40px 40px;
@@ -308,4 +314,125 @@ sup {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+}
+
+/* Tablet screens */
+@media screen and (max-width: 900px) {
+
+    .wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .main-content {
+        padding: 30px;
+    }
+
+    .sidebar {
+        display: flex;
+        width: 100%;
+    }
+
+    .sidebar img {
+        width: 50%;
+        height: 100%;
+    }
+
+    .contacts-container {
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .skills-container {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .skills-row {
+        display: flex;
+    }
+
+}
+
+/* Mobile screens */
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+
+    .sidebar {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .main-content {
+        padding: 35px 22px 35px 22px;
+    }
+
+    .sidebar img {
+        width: 100%;
+    }
+
+    .sidebar-content {
+        padding: 15px;
+    }
+
+    .contacts-title {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .contacts-container {
+        margin-bottom: 15px;
+    }
+
+    .skills-container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .skills-container h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .my-info {
+        margin-bottom: 20px;
+    }
+
+    .main-content h1 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .main-content h2 {
+        font-size: larger;
+        margin-bottom: 0;
+    }
+
+    .my-progects-title {
+        font-size: 18px;
+    }
+
+    .my-projects-container {
+        margin-bottom: 20px;
+    }
+
+    .work-experience-container {
+        margin-bottom: 30px;
+    }
+
+    .work-company h4 {
+        margin-bottom: 5px;
+    }
 }
