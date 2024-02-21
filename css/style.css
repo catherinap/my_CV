@@ -430,13 +430,13 @@ sup {
 
     .mobile-lang-choice li {
         list-style-type: none;
-        margin-right: 8px;
+        margin-right: 12px;
     }
 
     .mobile-lang-choice input {
         background-color: transparent;
         border: none;
-        font-size: 12px;
+        font-size: 18px;
         color: #FFF;
     }
 
@@ -520,13 +520,13 @@ sup {
 
     .mobile-lang-choice li {
         list-style-type: none;
-        margin-right: 8px;
+        margin-right: 12px;
     }
 
     .mobile-lang-choice input {
         background-color: transparent;
         border: none;
-        font-size: 12px;
+        font-size: 16px;
         color: #FFF;
     }
 
