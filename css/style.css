@@ -25,7 +25,6 @@ body {
 }
 
 /* Languages choice*/
-
 .row-name-lang {
     display: flex;
     flex-direction: row-reverse;
@@ -455,6 +454,39 @@ sup {
         width: 100%;
         margin: 0;
     }
+
+    /* Languages choice*/
+
+    .lang-choice ul {
+        display: none;
+    }
+
+    .mobile-lang-choice {
+        position: absolute;
+        z-index: 50;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+
+    .mobile-lang-choice ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-content: center;
+    }
+
+    .mobile-lang-choice li {
+        list-style-type: none;
+        margin-right: 8px;
+    }
+
+    .mobile-lang-choice input {
+        background-color: transparent;
+        border: none;
+        font-size: 12px;
+        color: #FFF;
+    }
+
 
     .sidebar {
         display: flex;
