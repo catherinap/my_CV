@@ -15,6 +15,11 @@ body {
     display: none;
 }
 
+/* hides all Polish blocks by default */
+.wrapper[lang="pl"] {
+    display: none;
+}
+
 /* hides all Ukrainian blocks by default */
 .wrapper[lang="ua"] {
     display: none;
@@ -407,7 +412,7 @@ sup {
     /* Languages choice*/
 
     .mobile-lang-choice {
-        display: block;
+        display: flex;
     }
 
     .lang-choice ul {
@@ -424,7 +429,7 @@ sup {
     .mobile-lang-choice ul {
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: space-evenly;
         align-content: center;
     }
 
