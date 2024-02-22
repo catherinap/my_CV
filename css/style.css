@@ -613,9 +613,6 @@ sup {
         content: "→";
         font-size: 14px;
         color: #2b2b2b;
-
-        .work-company h4>span {
-            font-size: 14px;
-        }
-
     }
+
+}
