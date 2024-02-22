@@ -485,7 +485,7 @@ sup {
 @media screen and (max-width: 600px) {
 
     body {
-        padding: 10px;
+        padding: 0;
     }
 
     .wrapper {
@@ -497,7 +497,7 @@ sup {
     /* Languages choice*/
 
     .mobile-lang-choice {
-        display: block;
+        display: flex;
     }
 
     .lang-choice ul {
@@ -513,14 +513,14 @@ sup {
 
     .mobile-lang-choice ul {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: flex-end;
         align-content: center;
     }
 
     .mobile-lang-choice li {
         list-style-type: none;
-        margin-right: 12px;
+        margin-bottom: 20px;
     }
 
     .mobile-lang-choice input {
@@ -559,11 +559,14 @@ sup {
 
     .contacts-container {
         margin-bottom: 15px;
+        margin-left: 10px;
+        margin-right: 0;
     }
 
     .skills-container {
-        margin-top: 10px;
+        margin-top: 0;
         margin-bottom: 10px;
+        margin-left: 0px;
     }
 
     .skills-container h3 {
@@ -606,8 +609,13 @@ sup {
         display: none;
     }
 
-    .work-company h4>span {
+    .my-projects-list li:last-child::marker {
+        content: "→";
         font-size: 14px;
-    }
+        color: #2b2b2b;
 
-}
+        .work-company h4>span {
+            font-size: 14px;
+        }
+
+    }
