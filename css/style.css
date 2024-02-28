@@ -15,11 +15,6 @@ body {
     display: none;
 }
 
-/* hides all Polish blocks by default */
-.wrapper[lang="pl"] {
-    display: none;
-}
-
 /* hides all Ukrainian blocks by default */
 .wrapper[lang="ua"] {
     display: none;
