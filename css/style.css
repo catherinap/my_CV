@@ -19,6 +19,10 @@ body {
 .wrapper[lang="ua"] {
     display: none;
 }
+/* hides all Polish blocks by default */
+.wrapper[lang="pl"] {
+    display: none;
+}
 
 .wrapper[lang="en"] {
     display: flex;

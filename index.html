@@ -826,31 +826,31 @@
   </body>
   
   <script>
-    function changeLangDe() {
+    function changeLangEn() {
+    document.getElementById('english').style.display = 'flex';
+    document.getElementById('polish').style.display = 'none';
+    document.getElementById('deutsch').style.display = 'none';
+    document.getElementById('ukrainian').style.display = 'none';
+}
+
+function changeLangPl() {
+    document.getElementById('english').style.display = 'none';
+    document.getElementById('polish').style.display = 'flex';
+    document.getElementById('deutsch').style.display = 'none';
+    document.getElementById('ukrainian').style.display = 'none';
+}
+
+function changeLangDe() {
     document.getElementById('english').style.display = 'none';
     document.getElementById('polish').style.display = 'none';
-    document.getElementById('ukrainian').style.display = 'none';
     document.getElementById('deutsch').style.display = 'flex';
+    document.getElementById('ukrainian').style.display = 'none';
 }
 function changeLangUa() {
     document.getElementById('english').style.display = 'none';
     document.getElementById('polish').style.display = 'none';
+    document.getElementById('deutsch').style.display = 'none';
     document.getElementById('ukrainian').style.display = 'flex';
-    document.getElementById('deutsch').style.display = 'none';
 }
-
-function changeLangEn() {
-    document.getElementById('english').style.display = 'flex';
-    document.getElementById('polish').style.display = 'none';
-    document.getElementById('ukrainian').style.display = 'none';
-    document.getElementById('deutsch').style.display = 'none';
-}
-function changeLangPl() {
-    document.getElementById('english').style.display = 'none';
-    document.getElementById('polish').style.display = 'flex';
-    document.getElementById('ukrainian').style.display = 'none';
-    document.getElementById('deutsch').style.display = 'none';
-}
-
   </script>
 </html>
