@@ -48,6 +48,10 @@ body {
     margin-right: 10px;
 }
 
+.lang-choice li:last-child {
+    margin-right: 0;
+}
+
 .lang-choice input {
     background-color: transparent;
     border: none;
