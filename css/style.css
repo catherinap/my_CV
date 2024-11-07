@@ -259,6 +259,15 @@ body {
     text-align: left;
 }
 
+.other_projects a:last-child {
+    margin-left: 0;
+}
+
+.other_projects span {
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+}
+
 /* Work experience */
 
 .work-experience-container {
