@@ -91,7 +91,7 @@ body {
 .sidebar {
     background: #efefef;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     box-sizing: border-box;
     width: 370px;
 }
@@ -211,9 +211,9 @@ body {
 }
 
 /* My projects */
-.my-projects-container {
-    margin-bottom: 40px;
-}
+/* .my-projects-container {
+    margin-bottom: 30px;
+} */
 
 .my-progects-title {
     color: #2b2b2b;
@@ -340,6 +340,9 @@ sup {
 }
 
 /* Education */
+.education-container {
+    margin-bottom: 40px;
+}
 
 .education-title {
     color: #2b2b2b;
