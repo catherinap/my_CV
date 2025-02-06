@@ -245,11 +245,11 @@ body {
     margin-left: 14.1px;
 }
 
-.my-projects-list li:last-child::marker {
+/* .my-projects-list li:last-child::marker {
     content: "→";
     font-size: 18px;
     color: #2b2b2b;
-}
+} */
 
 .my-projects-list li>span {
     color: #595959;
