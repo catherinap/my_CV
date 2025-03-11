@@ -634,6 +634,10 @@ sup {
     margin-bottom: 30px;
   }
 
+.other_projects a {
+  display: block;
+}
+
   .work-company h4 {
     margin-bottom: 5px;
     font-size: 14px;
