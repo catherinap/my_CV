@@ -509,6 +509,18 @@ sup {
     flex-direction: column;
   }
 
+  .my-projects-list li.other_projects > a {
+    font-size: 12px;
+  }
+
+  .other_projects a {
+    display: block;
+  }
+
+  .other_projects a:last-child {
+    margin-left: 14px;
+  }
+
   .my-projects-list li > span {
     display: none;
   }
@@ -634,10 +646,6 @@ sup {
     margin-bottom: 30px;
   }
 
-.other_projects a {
-  display: block;
-}
-
   .work-company h4 {
     margin-bottom: 5px;
     font-size: 14px;
@@ -652,8 +660,4 @@ sup {
     font-size: 14px;
     color: #2b2b2b;
   }
-
-  .other_projects a:last-child {
-    margin-left: 14px;
-}
 }
