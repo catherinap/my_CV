@@ -246,7 +246,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   text-decoration-line: underline;
-  margin-left: 14.1px;
+  margin-left: 14px;
 }
 
 .my-projects-list li:last-child::marker {
@@ -603,6 +603,10 @@ sup {
     margin-bottom: 5px;
   }
 
+  .skills-row {
+    flex-direction: column;
+  }
+
   .my-info {
     margin-bottom: 20px;
   }
@@ -613,7 +617,6 @@ sup {
   }
 
   .main-content h2 {
-    font-size: larger;
     margin-bottom: 0;
   }
 
@@ -643,4 +646,8 @@ sup {
     font-size: 14px;
     color: #2b2b2b;
   }
+
+  .other_projects a:last-child {
+    margin-left: 14px;
+}
 }
