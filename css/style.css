@@ -385,7 +385,7 @@ sup {
 }
 
 .education-place {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .languages span {
@@ -394,6 +394,16 @@ sup {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+}
+
+.genius_link {
+    color: #ff7e93;
+    text-decoration: underline;
+}
+
+.genius_link a:visited {
+     color: #ff7e93;
+    text-decoration: underline;
 }
 
 /* Laptop screens */
