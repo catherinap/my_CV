@@ -184,6 +184,7 @@ body {
 
 .skills-list li::marker {
   font-size: 8px;
+  color: var(--main-accent-color);
 }
 
 /* Main content Info */
@@ -243,6 +244,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
+  
 }
 
 .my-projects-list li > a {
@@ -350,6 +352,7 @@ sup {
 
 .work-company li::marker {
   font-size: 8px;
+  color: var(--main-accent-color);
 }
 
 /* Education */
