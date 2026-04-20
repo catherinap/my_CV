@@ -24,8 +24,8 @@ body {
 .wrapper[lang="ua"] {
   display: none;
 }
-/* hides all Polish blocks by default */
-.wrapper[lang="pl"] {
+/* hides all Danish blocks by default */
+.wrapper[lang="dk"] {
   display: none;
 }
 
