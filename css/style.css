@@ -22,6 +22,7 @@ body {
   background: #e2e8f0;
   padding: 48px 40px;
   font-family: "DM Sans", sans-serif;
+  font-size: 15px;
 }
 
 /* hides all German blocks by default */
@@ -155,7 +156,7 @@ body {
 
 .contacts-link {
   color: var(--main-accent-color);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 22px;
   text-decoration-line: underline;
@@ -170,7 +171,7 @@ body {
 .contacts-item {
   margin-top: 0;
   margin-bottom: 5px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 22px;
   color: var(--text-secondary);
@@ -288,7 +289,7 @@ body {
 
 .my-projects-list li>a {
   color: var(--main-accent-color);
-  font-size: 13.5px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   text-decoration-line: underline;
