@@ -9,7 +9,9 @@
     <title>CV: Kateryna Panchenko</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&family=DM+Serif+Display&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -1050,11 +1052,17 @@
   </body>
 
   <script>
+    function setActiveLang(id) {
+      document.querySelectorAll(".lang-choice input, .mobile-lang-choice input").forEach((btn) => btn.classList.remove("active"));
+      document.querySelectorAll(`input[id="${id}"]`).forEach((btn) => btn.classList.add("active"));
+    }
+
     function changeLangEn() {
       document.getElementById("english").style.display = "flex";
       document.getElementById("danish").style.display = "none";
       document.getElementById("deutsch").style.display = "none";
       document.getElementById("ukrainian").style.display = "none";
+      setActiveLang("en");
     }
 
     function changeLangDk() {
@@ -1062,6 +1070,7 @@
       document.getElementById("danish").style.display = "flex";
       document.getElementById("deutsch").style.display = "none";
       document.getElementById("ukrainian").style.display = "none";
+      setActiveLang("dk");
     }
 
     function changeLangDe() {
@@ -1069,12 +1078,15 @@
       document.getElementById("danish").style.display = "none";
       document.getElementById("deutsch").style.display = "flex";
       document.getElementById("ukrainian").style.display = "none";
+      setActiveLang("de");
     }
+
     function changeLangUa() {
       document.getElementById("english").style.display = "none";
       document.getElementById("danish").style.display = "none";
       document.getElementById("deutsch").style.display = "none";
       document.getElementById("ukrainian").style.display = "flex";
+      setActiveLang("ua");
     }
   </script>
 </html>
